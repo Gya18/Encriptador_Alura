@@ -1,0 +1,96 @@
+/*@utor: Gercodex ©*/
+
+body{
+    background: #4f4f55;    
+}
+main{    
+    background: #1e1e1e;
+}
+.logo{
+    filter:invert() saturate(0);
+}
+.texto-a-cifrar{
+    color: #e1e1e1;
+    background: transparent; 
+    caret-color: #ffffff;    
+}
+.texto-a-cifrar::placeholder{
+    color: #b9b9b9;
+}
+.centro-relleno-relleno-para-aviso p{
+    color: rgb(241, 241, 241);  
+}
+.centro-relleno-relleno-para-aviso p span{
+    background: gray;
+    color: white;
+}
+.encriptar{    
+    color: white;
+    background: #7f7f7f;
+    border:1px solid #ddddde; 
+}
+.encriptar:hover{
+    background: #494949;
+}
+.desencriptar{
+    border:1px solid #ddddde;
+    background: #7f7f7f;
+    color: white;
+}
+.desencriptar:hover{
+    background: rgb(197, 197, 197);
+    color: black;
+}
+.derecha{
+    background: rgb(89, 89, 89);
+    box-shadow: 0 24px 32px -8px rgba(2, 2, 2, 0.737);
+}
+.muneco{
+    filter: saturate(0) brightness(80%);
+}
+.derecha-relleno-relleno-aviso-superior p{
+    color: #bababa;
+}
+.derecha-relleno-relleno-aviso-inferior p{
+    color: #bababa;
+}
+.decifrado{ 
+    background:rgb(89, 89, 89);   
+    color: #dbdbdb;
+}
+.bcopiar{
+    border: 1px solid #ffffff;
+    color: #ffffff;
+    background: rgb(107, 107, 107);
+}
+.bcopiar:hover{
+    background: #c1c1c1;
+    color: rgb(0, 0, 0);
+}
+footer div{        
+    background: rgba(137, 137, 137, 0.3);
+    color:  rgba(237, 237, 237, 1);        
+}
+footer div p{
+    color: white;
+}
+.enlace{
+    cursor: pointer;
+    content: url(imgs/github-mark-white.png);
+}
+footer div:not(.contenedor,.radio_b,.dip):hover{    
+    background: rgba(5, 27, 72, 0.5);
+    color:  rgba(255, 255, 255,0.9);         
+    color: white;            
+}
+::selection{
+    background: gray;
+    color: silver;
+}
+::-moz-selection{
+    background: gray;
+    color: silver;
+}
+
+
+
